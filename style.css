@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    /* background-color: rgb(241, 237, 237); */
+  }
+  body{
+    background-color: rgb(154, 201, 194);
+  }
+  .header {
+    margin:10px 50px;
+    background-color: rgb(179, 177, 177);
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px 40px;
+    color: rgb(3, 1, 13);
+    text-align: center;
+  }
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  ul {
+    margin: 1px 20px;
+    padding: 3%;
+  }
+
+  ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border: 2px solid black;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 4px;
+    background:rgb(238, 161, 174);
+    font-size: 18px;
+    transition: 0.2s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+    -moz-user-select: none;
+   
+  }
+  
+  ul li.checked {
+    text-decoration: line-through;
+    background: rgb(5, 114, 5);
+    color: rgb(12, 11, 11);
+  } 
+  ul li:hover {
+    background:rgb(104, 114, 90);
+    color: bisque;
+  }
+ 
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 14px 10px 14px;
+  }
+  
+  .close:hover {
+    background-color: red;
+    color: rgb(237, 241, 241);
+  }
+
+  
+
+  input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 20px;
+  }
+  
+  .Add-btn {
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid  black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 26%;
+    background: #a89c93;
+    color: rgb(1, 3, 18);
+    float: left;
+  }
+  
+  .Add-btn:hover {
+    background-color:green;
+  }
+  .footer {
+    margin:0px 50px;
+    text-align: center;
+    background-color: rgb(186, 183, 183);
+  
+   
+    
+  } 
